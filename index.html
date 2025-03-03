@@ -602,6 +602,11 @@
 .giftbox img{
     width: 100%;
 }
+@media (max-width:400px) {
+    .giftbox img{
+    width: 40%;
+}
+}
 .textLetter {
             width: 100%;
             flex-direction: column;
@@ -1103,7 +1108,7 @@
         // .textLetter text h2
         let indexText = 0;
         let textLetter = document.querySelector('.textLetter h2');
-        const textLetterH2 = "Gửi Quỳnh Nhaaaa!";
+        const textLetterH2 = "Gửi Như Quỳnh Nhaaaa!";
         let timoutTextLetter;
 
         function textCharLetter() {
@@ -1131,7 +1136,7 @@
         // chữ của thư bạn muốn gửi
         let indexTextContent = 0;
         let textLetterContent = document.querySelector('.contentLetter');
-        const textLetterP = "Hôm nay là ngày 08/03. Anh chúc em . Luôn vui vẻ, luôn hạnh phúc và luôn may mắn trong cuộc sống, ngày càng xinh đẹp. Xin gửi tất cả lời chúc tốt đẹp đến với Em. Love You💗";
+        const textLetterP = "Hôm nay là ngày 08/03. Anh chúc em . Luôn vui vẻ, luôn hạnh phúc và luôn may mắn trong cuộc sống, ngày càng xinh đẹp. Xin gửi tất cả lời chúc tốt đẹp đến với Em. Đừng có xúc động quá nha hehehehe!!!!!";
         let timoutTextLetterContent;
         function textCharLetterContent() {
             if (indexTextContent < textLetterP.length) {
